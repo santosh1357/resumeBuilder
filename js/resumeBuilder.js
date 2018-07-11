@@ -104,8 +104,17 @@ $(function(){
 		renderBio: function(){
 			var bio = octopus.getBio();
 			var fomattedHeader = HTMLheaderName.replace("%data%", bio.name);
+			var formattedHTMLheaderRole = HTMLheaderRole.replace("%data%", bio.role);
+			var formattedHTMLcontactGeneric = HTMLcontactGeneric.replace("%data%", bio.contacts.mobile);
+			var formattedHTMLcontactGeneric2 = HTMLcontactGeneric.replace("%contact%", 'mobile');
+
+
+
 			$('#header').append(fomattedHeader);
-			console.log($("#header"));
+			$('#header').append(formattedHTMLheaderRole);
+			$('#topContacts').append(formattedHTMLcontactGeneric2);
+			$('#topContacts').append(formattedHTMLcontactGeneric);
+			console.log(bio.contacts.mobile);
 		},
 		renderEdu: function(){
 			var education = octopus.getEdu();

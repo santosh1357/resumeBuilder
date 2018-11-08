@@ -91,7 +91,9 @@ a {
   margin-top: 10px;
   display: block;
 }
-
+#topContacts > li:nth-child(3) > span.white-text > a, #footerContacts > li:nth-child(3) > span.white-text > a{
+  display: inline;
+}
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -164,7 +166,8 @@ ul {
 }
 
 img {
-  padding: 10px;
+  padding: 20px;
+  width: 300px;
 }
 
 span {
@@ -174,7 +177,9 @@ span {
 #lets-connect {
   text-align: center;
 }
-
+#footerContacts{
+  background: #222;
+}
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {

@@ -283,6 +283,7 @@ This is empty on purpose! Your code to build the resume will go here.
 				$('.project-entry').append(formattedHTMLprojectDescription);
 				project.images.map(function(image){
 					var formattedHTMLprojectImage=HTMLprojectImage.replace("%data%", image);
+					console.log(formattedHTMLprojectImage)
 					$('.project-entry').append(formattedHTMLprojectImage);
 				});
 			});

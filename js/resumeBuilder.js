@@ -157,13 +157,13 @@ This is empty on purpose! Your code to build the resume will go here.
 					'The resturant data is displayed with search and filter options. It also uses leaflet and Mapbox API ' +
 					'to display the resturants location in a MAP. The app uses flexbox for achieving responsiveness ' +
 					'suitable ARIA labels for accessiblity and Service Workers for offline availablity.',
-					images: ['./images/restRev1.png', './images/restRev2.png', './images/restRev3.png']
+					images: ['images/restRev1.png', 'images/restRev2.png', 'images/restRev3.png']
 				},
 				{
 					title: 'Neighborhood-Map-React',
 					dates: '10-Oct-18 3-Nov-18',
 					description: 'A single-page web application, built using the React framework, that displays Arts and Museums centers located in NewDelhi. The project uses a 3rd party API (four square) to load the details of locations like their name, address etc. Then the same data is displayed on Google Map. Map Markers and serach field has been added and locations can be filtered and searched thriough them. This application follow this Udacity Project Rubric',
-					images: ['./images/NeighbourHoodMap.png', './images/NeighbourHood3.png']
+					images: ['images/NeighbourHoodMap.png', 'images/NeighbourHood3.png']
 				}
 			],
 			display: function(){

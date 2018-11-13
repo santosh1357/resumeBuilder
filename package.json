@@ -1,0 +1,12 @@
+{
+  "name": "resume_builder",
+  "version": "1.0.0",
+  "description": "Displays a dynamic resume based upon user input in json.",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^10.0.0"
+  },
+  "author": "Santosh Prasad"
+}

@@ -16,7 +16,7 @@ This is empty on purpose! Your code to build the resume will go here.
 			'I am currently working in Snap-On Business Solutions where I work on deployments, supporting and troubleshooting ' +
 			'user issues on applications like Jira, OpsView(Nagios)etc.',
 			skills: ['ReactJS','Linux', 'Ansible', 'Python Scripting', 'Java Script', 'HTML', 'CSS'],
-			biopic: 'images/fry.jpg',
+			biopic: 'images/picture.jpg',
 			display: function(){
 				var fomattedHeader = HTMLheaderName.replace("%data%", bio.name);
 				var formattedHTMLheaderRole = HTMLheaderRole.replace("%data%", bio.role);
@@ -164,6 +164,12 @@ This is empty on purpose! Your code to build the resume will go here.
 					dates: '10-Oct-18 3-Nov-18',
 					description: 'A single-page web application, built using the React framework, that displays Arts and Museums centers located in NewDelhi. The project uses a 3rd party API (four square) to load the details of locations like their name, address etc. Then the same data is displayed on Google Map. Map Markers and serach field has been added and locations can be filtered and searched thriough them. This application follow this Udacity Project Rubric',
 					images: ['images/NeighbourHoodMap.png', 'images/NeighbourHood3.png']
+				},
+				{
+					title: 'MyReads-A-Book-Tracking-App',
+					dates: '10-Jun-18 3-Nov-18',
+					description: 'The App act as a tracker to track books among 3 different shelfs like \'Currently Reading, Reading and Wanto to read\'.  It has been build using react and has functionality like search and moving books among different shelfs. A backend DB API was provided to fetch book results with limited search query.',
+					images: ['images/myReads1.png', 'images/myReads2.png']
 				}
 			],
 			display: function(){

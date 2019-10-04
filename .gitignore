@@ -20,5 +20,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#ignore project notes
+HowTos.txt
+__home.html
+__index.php
+
 #backup app,js
 /src/App_bkp.js

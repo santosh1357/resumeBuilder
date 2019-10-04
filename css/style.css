@@ -204,6 +204,28 @@ span {
   .welcome-message {
     display: none;
   }
+  #name{
+    font-size: 25px
+  }
+  #topContacts > li{
+    padding: 1px
+  }
+  #topContacts > li:nth-child(1) > span.orange-text{
+    margin-left: -22%
+    
+  }
+  #topContacts > li:nth-child(2) > span.orange-text {
+    margin-left: -6%
+  }
+  #topContacts > li:nth-child(2) > span.white-text{
+    margin-left: 3%
+  }
+  #footerContacts > li:nth-child(2) > span.orange-text{
+    margin-left: -17%
+  }
+  #footerContacts > li:nth-child(1) > span.orange-text{
+    margin-left: -50%
+  }
 }
 
 #map {

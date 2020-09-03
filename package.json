@@ -6,7 +6,7 @@
     "start": "serve"
   },
   "dependencies": {
-    "serve": "^10.0.0"
+    "serve": "^10.1.2"
   },
   "author": "Santosh Prasad"
 }
